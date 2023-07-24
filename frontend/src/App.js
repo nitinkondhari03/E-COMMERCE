@@ -1,28 +1,31 @@
-import "./App.css";
-import { useEffect} from "react";
-import Header from "./component/layout/Header/Header.js";
-import { BrowserRouter as Router} from "react-router-dom";
-import WebFont from "webfontloader";
-import React from "react";
-import Footer from "./component/layout/Footer/Footer";
 
+import './App.css';
+import AllRoutes from './AllRoutes';
 
+import Footer from "./component/layout/Footer/Footer"
+import { useSelector,useDispatch } from "react-redux";
+import { useEffect } from 'react';
+import {loadUser} from "./Redux/actions/userAction";
+import Cookies from 'js-cookie';
+import Header from './component/layout/Header/Header';
+import UserOptions from "./component/layout/Header/UserOptions"
 function App() {
+  const dispatch = useDispatch();
+  const { isAuthenticated, user } = useSelector((state) => state.user);
 
-  useEffect(() => {
-    WebFont.load({
-      google: {
-        families: ["Roboto", "Droid Sans", "Chilanka"],
-      },
-    });
-
-  }, []);
-
+  useEffect(()=>{
+    dispatch(loadUser());
+ 
+   console.log(isAuthenticated)
+  },[])
   return (
-    <Router>
-      <Header />
-      <Footer />
-    </Router>
+    <div className='App'>
+     
+    <Header/>
+    <AllRoutes/>
+  
+   <Footer/>
+    </div>
   );
 }
 

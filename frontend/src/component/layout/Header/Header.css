@@ -1,11 +1,153 @@
-.speedDial {
-  position: fixed;
-  right: 3vmax;
-  top: 3vmax;
-}
+
 
 .speedDialIcon {
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
+}
+.nav{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+h1{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.nav1{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 1;
+}
+.catory{
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 10px;
+}
+.catory>div>div>h4{
+  color: black;
+  padding-top: 15px;
+}
+.catory>div{
+ width: 10%;
+}
+.imgesd>img{
+width: 100%;
+height: 100px;
+}
+.imgesd>img{
+  width: 100%;
+}
+.search1{
+  display: none;
+  }
+  .search{
+    display: block;
+    margin-top: 10px;
+  }
+  .hambuer{
+    display: none;
+  }
+  .ptages{
+    width: 22px;
+    background-color: rgb(190, 179, 17);
+    height: 22px;
+    position:relative;
+    margin-top: -42px;
+    margin-left: 30px;
+    border-radius: 100%;
+    color: white;
+    font-size: 15px;
+  }
+  .signin{
+    color: white;
+  }
+  .cartsig{
+    color: white;
+  }
+  .names{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .logins{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .cartsig>h3{
+    color: white;
+    font-size: 20px;
+  }
+@media screen and (max-width: 600px) {
+  .search1{
+    display: block;
+    }
+    .search{
+      display: none;
+    }
+ h1{
+  font-size: 18px;
+  margin-left: 8px;
+  margin-top: 20px;
+ }
+ .speedDialIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.hambuer{
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+.nav{
+  height: 140px;
+}
+
+.cartsig>h2{
+font-size: 25px;
+}
+.cartsig>h3{
+  font-size: 17px;
+  margin-top: 25px;
+  }
+  .logins{
+    font-size: 17px;
+    margin-top: 25px;
+  }
+.ptages{
+  margin-top: -34px;
+  width: 18px;
+  height: 18px;
+}
+.catory{
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.catory>div{
+ width: 10%;
+}
+.imgesd>img{
+width: 100%;
+height:40px;
+}
+
+.catory>div>div>h4{
+  font-size: 8px;
+  color: black;
+  padding-top: 15px;
+}
 }

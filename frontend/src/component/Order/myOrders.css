@@ -1,0 +1,57 @@
+.ordersd{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 0px 10px 0px ;
+ 
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.orderDetailsCartItemsContainers{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+ 
+}
+.orderDetailsCartItemsContainers>div{
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.orderDetailsCartItemsContainers>div>div{
+  width: 100%;
+}
+.orderDetailsCartItemsContainers>div>div>img{
+width: 100%;
+}
+h3{
+  color: red;
+}
+h4{
+  color: blue;
+}
+.detailes {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: rgb(55, 56, 110);
+  font: 500 0.7vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.9vmax 5vmax;
+  margin: 1vmax;
+  outline: none;
+  font-size: 20px;
+}
+
+.detailes:hover {
+  background-color: rgb(214, 84, 61);
+}
+@media screen and (max-width: 600px){
+
+  span{
+    font-size: 10px;
+  }
+}
