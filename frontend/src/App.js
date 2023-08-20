@@ -15,8 +15,6 @@ function App() {
 
   useEffect(()=>{
     dispatch(loadUser());
- 
-   console.log(isAuthenticated)
   },[])
   return (
     <div className='App'>

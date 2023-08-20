@@ -46,7 +46,7 @@ const history=useNavigate()
 
     if (isDeleted) {
       alert("Product Deleted Successfully");
-      history("/admin/dashboard");
+      //history("/admin/dashboard");
       dispatch({ type: DELETE_PRODUCT_RESET });
     }
 
