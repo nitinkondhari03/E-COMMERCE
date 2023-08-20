@@ -35,6 +35,7 @@ const UpdateProfile = () => {
   };
 
   const updateProfileDataChange = (e) => {
+    e.preventDefault()
     const reader = new FileReader();
 
     reader.onload = () => {
