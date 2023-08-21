@@ -33,13 +33,13 @@ npm run deploy
 -   Shipping Info Page
 -   payment Page
 -   Orders Page
--   Admin page
--   Wishlist page
--   Search page
--   Single product page
--   Payment page
--   Payment method
--   Payment successful page
+-   Order Details Page
+-   Admin Dashboard page
+-   Admon Product page
+-   Admon Create Product page
+-   Admin All Orders Page
+-   Admin All Users Page
+-   Admin All Reviews Page
 
 ## Features
 
