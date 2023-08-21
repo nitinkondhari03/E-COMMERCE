@@ -88,21 +88,18 @@ npm run deploy
 
 ## ScreenShots
 
-### 1. Login
-![screencapture-gadgetgalaxy-netlify-app-login-2023-04-03-12_28_00](https://user-images.githubusercontent.com/110021464/229438100-ffe29a45-5450-4a7b-843f-e81696908502.png)
-![Nitin1kondhari-removebg-preview]
+### 1. Homepage
 
-### 2. Signup
+![Home page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/0defbaa5-8470-446c-9161-6e494fd278bf)
 
-![screencapture-gadgetgalaxy-netlify-app-signup-2023-04-03-12_28_53](https://user-images.githubusercontent.com/110021464/229438184-2f1d98fe-aecf-4c8e-8d12-471a9700e08c.png)
+### 2. Login
+![Login](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/7d393c6e-b9b0-40ec-a8aa-dcabc416e722)
 
-### 3. Homepage
-
-![Home](https://user-images.githubusercontent.com/110021464/229436194-106bfbb6-5200-4bf6-830e-99c9c6fe0a86.png)
+### 3. Register
+![Register](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/771893d2-b41f-419e-aee8-9fd831e27a78)
 
 ### 4. Products Page
-
-![products](https://user-images.githubusercontent.com/110021464/229436421-2751913f-328b-4eee-8494-f5d99bdde8c6.png)
+![Product page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/1b5dad14-9436-48f6-8f6e-84aabe3d8a58)
 
 ### 5. Signle Product Page
 
