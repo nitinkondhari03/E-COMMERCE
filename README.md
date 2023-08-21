@@ -61,8 +61,6 @@ npm run deploy
 -   Admin Create Product
 -   Admin Delete Product
 -   Admin Edit Product
--   
-
 ## ScreenShots
 
 ### 1. Homepage
