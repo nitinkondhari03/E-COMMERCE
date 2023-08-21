@@ -131,7 +131,7 @@ Go to the project directory
 
 Install dependencies
 
-## Frontend
+ Frontend
 ```bash
    npx create-react-app
    npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
