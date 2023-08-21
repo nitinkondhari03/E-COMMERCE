@@ -1,6 +1,6 @@
 # Ecommerce.com
 
-GadgetGalaxy is a clone of an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
+E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
 
 ## API Reference
 
@@ -90,6 +90,7 @@ npm run deploy
 
 ### 1. Login
 ![screencapture-gadgetgalaxy-netlify-app-login-2023-04-03-12_28_00](https://user-images.githubusercontent.com/110021464/229438100-ffe29a45-5450-4a7b-843f-e81696908502.png)
+![Nitin1kondhari-removebg-preview]
 
 ### 2. Signup
 
