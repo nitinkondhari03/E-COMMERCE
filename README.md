@@ -35,8 +35,8 @@ npm run deploy
 -   Orders Page
 -   Order Details Page
 -   Admin Dashboard page
--   Admon Product page
--   Admon Create Product page
+-   Admin Product page
+-   Admin Create Product page
 -   Admin All Orders Page
 -   Admin All Users Page
 -   Admin All Reviews Page
@@ -109,10 +109,10 @@ npm run deploy
 ### 15. Admin Dashboard
 ![Dashboard page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/43c76293-6b53-4370-a670-3afb466eaf00)
 
-### 16. Admon Product page
+### 16. Admin Product page
 ![admin all product](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/263681b9-68f9-43e1-8932-4865ced1416c)
 
-### 17. Admon Create Product page
+### 17. Admin Create Product page
 ![admin create products](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/d45d123f-c6fe-49e7-9da5-0726936da341)
 
 ### 18. Admin All Orders Page
