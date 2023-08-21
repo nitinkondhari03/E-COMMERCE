@@ -167,9 +167,6 @@ Install dependencies
    npm i validator
 ```
 
-
-
-
 #### Is this website fully Responsive?
 
 No, As of Now this website isn't fully Responsive. Some of our the part of this website is broken for small screen devices. Our team is working on this soon we will fix this.
