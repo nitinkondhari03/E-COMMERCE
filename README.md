@@ -1,4 +1,4 @@
-# Ecommerce.com
+# E-commerce
 
 E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
 
