@@ -43,18 +43,25 @@ npm run deploy
 
 ## Features
 
--   Get Request Api call
--   Post Request Api call
--   Patch Request Api call
--   Delete Request Api call
--   User Register
--   User login
--   Admin Register
--   Admin login
--   Add product
--   Delete product
--   Edit product
+-   Login
+-   Register
+-   Logout
+-   Forget Password
+-   Update Profile
+-   Search product
 -   Sorting & filter
+-   Add To Cart product
+-   check Out
+-   Shipping Details
+-   Payment Cart
+-   Order Product
+-   Order Details Product
+-   Add Product Review
+-   Admin Get All Product
+-   Admin Create Product
+-   Admin Delete Product
+-   Admin Edit Product
+-   
 
 ## ScreenShots
 
