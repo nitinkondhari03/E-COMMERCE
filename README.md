@@ -115,21 +115,7 @@ npm run deploy
 ![AdminEditPrd](https://user-images.githubusercontent.com/110021464/229439290-ea803007-25e3-4e9d-927d-cbc9db87179c.png)
 
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/uzairansari11/native-order-609.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-native-order-609
-```
-
-Install dependencies
+## Install dependencies
 
  Frontend
 ```bash
