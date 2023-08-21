@@ -132,22 +132,21 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install
-  npm i axios
-  npm i react-redux
-  npm i redux
-  npm i thunk
-  npm i json-server
-  npm i chakra-ui
-  npm i material-UI
-  npm i material-icon
-  npm i bcrypt
-  npm i cors
-  npm i dotenv
-  npm i express
-  npm i jsonwebtoken
-  npm i mongoose
-  npm i nodemon
+   npx create-react-app
+   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+   npm i country-state-city
+   npm install @mui/material @emotion/react @emotion/styled
+   npm install @mui/material @mui/styled-engine-sc styled-components
+   npm i axios
+   npm install --save chart.js react-chartjs-2
+   npm i react-data-grid
+   npm i react-material-ui-carousel
+   npm i react-multi-carousel
+   npm i react-redux
+   npm i react-router-dom
+   npm i redux
+   npm i redux-thunk
+   Start the server
 ```
 
 Start the server
