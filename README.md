@@ -149,6 +149,24 @@ Install dependencies
    npm i redux-thunk
    Start the server
 ```
+ Backend
+```bash
+   npx create-react-app
+   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+   npm i country-state-city
+   npm install @mui/material @emotion/react @emotion/styled
+   npm install @mui/material @mui/styled-engine-sc styled-components
+   npm i axios
+   npm install --save chart.js react-chartjs-2
+   npm i react-data-grid
+   npm i react-material-ui-carousel
+   npm i react-multi-carousel
+   npm i react-redux
+   npm i react-router-dom
+   npm i redux
+   npm i redux-thunk
+   Start the server
+```
 
 Start the server
 
