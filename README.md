@@ -167,26 +167,8 @@ Install dependencies
    npm i validator
 ```
 
-Start the server
 
-```bash
-  npm run server
-  npm start
-```
 
-## Demo
-
-Link
-
-## FAQ
-
-<!--#### What is a clone of Aeropostale?-->
-
-<!-- A clone of Aeropostale is a replica or imitation of the popular clothing brand Aeropostale. It may sell similar styles of clothing or try to emulate the overall aesthetic of the brand. -->
-
-<!--#### Is a clone of Aeropostale the same as an official Aeropostale store?-->
-
-<!-- No, a clone of Aeropostale is not an official Aeropostale store. It is a separate business that is not affiliated with the original brand. -->
 
 #### Is this website fully Responsive?
 
