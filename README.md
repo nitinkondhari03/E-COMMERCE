@@ -2,32 +2,11 @@
 
 E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET /Add Link Here
-```
-
-| End Point     | Type     | Description                         |
-| :------------ | :------- | :---------------------------------- |
-| `products`    | `string` | **Required**. All Products page     |
-| `product/:id` | `string` | **Required**. Single Product page   |
-| `login`       | `string` | **Required**. Login page            |
-| `signup`      | `string` | **Required**. Signup page           |
-| `wishlist`    | `string` | **Required**. Wishlist page         |
-| `search`      | `string` | **Required**. Search page           |
-| `*`           | `string` | **Required**. 404 Not Found page    |
-| `cart`        | `string` | **Required**. cart page             |
-| `admin`       | `string` | **Required**. Admin page            |
-| `address`     | `string` | **Required**. user shipping address |
-
 ## Tech Stack
 
-**Front-end :** React, Redux, Chakra UI, Material UI, Mantine UI, NodeJS, Express JS, Ant-design UI,
+**Front-end:** React, Redux, Chakra UI, Material UI, Mantine UI, NodeJS, Express JS, Ant-design UI,
 
-**Back-end :** JSON-Server, JSON-Web-Token, CORS, DOTENV, Bcrypt (for hashing), Mongoose, Nodemon
+**Back-end:** JSON-Server, JSON-Web-Token, CORS, DOTENV, Bcrypt (for hashing), Mongoose, Nodemon
 
 ## Color Reference
 
