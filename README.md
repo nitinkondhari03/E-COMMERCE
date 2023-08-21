@@ -20,12 +20,19 @@ npm run deploy
 
 ## Pages
 
--   Navbar
--   Landing page
--   Products page
--   Cart page
+-   Home Page
 -   Login page
--   Signup page
+-   Register page
+-   Forget Password page
+-   My Profile Page
+-   Update Profile page
+-   Product page
+-   Product Details Page
+-   Cart Page
+-   Shipping Details Page
+-   Shipping Info Page
+-   payment Page
+-   Orders Page
 -   Admin page
 -   Wishlist page
 -   Search page
