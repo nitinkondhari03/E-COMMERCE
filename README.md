@@ -8,7 +8,43 @@ E-commerce is a an Indian online store that specializes in selling a wide range 
 
 **Back-end:** Express, MongoDB, NodeJS 
 
+## Install dependencies
 
+ Frontend
+```bash
+   npx create-react-app
+   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+   npm i country-state-city
+   npm install @mui/material @emotion/react @emotion/styled
+   npm install @mui/material @mui/styled-engine-sc styled-components
+   npm i axios
+   npm install --save chart.js react-chartjs-2
+   npm i react-data-grid
+   npm i react-material-ui-carousel
+   npm i react-multi-carousel
+   npm i react-redux
+   npm i react-router-dom
+   npm i redux
+   npm i redux-thunk
+   Start the server
+```
+ Backend
+```bash
+   npm i body-parser
+   npm i cloudinary
+   npm i cookie-parser
+   npm i cors
+   npm i dotenv
+   npm i express
+   npm i express-fileupload
+   npm i js-cookie
+   npm i jsonwebtoken
+   npm i mongoose
+   npm i nodemailer
+   npm i nodemon
+   npm i stripe
+   npm i validator
+```
 ## Deployment
 
 To deploy this project run
@@ -124,44 +160,6 @@ npm run deploy
 ### 20. Admin All Reviews Page
 ![Admin ALL Reviews](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/4bcaa7ca-f319-45a5-9b36-6773d53ad05f)
 
-
-## Install dependencies
-
- Frontend
-```bash
-   npx create-react-app
-   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-   npm i country-state-city
-   npm install @mui/material @emotion/react @emotion/styled
-   npm install @mui/material @mui/styled-engine-sc styled-components
-   npm i axios
-   npm install --save chart.js react-chartjs-2
-   npm i react-data-grid
-   npm i react-material-ui-carousel
-   npm i react-multi-carousel
-   npm i react-redux
-   npm i react-router-dom
-   npm i redux
-   npm i redux-thunk
-   Start the server
-```
- Backend
-```bash
-   npm i body-parser
-   npm i cloudinary
-   npm i cookie-parser
-   npm i cors
-   npm i dotenv
-   npm i express
-   npm i express-fileupload
-   npm i js-cookie
-   npm i jsonwebtoken
-   npm i mongoose
-   npm i nodemailer
-   npm i nodemon
-   npm i stripe
-   npm i validator
-```
 
 #### Is this website fully Responsive?
 
