@@ -161,8 +161,3 @@ https://vercel.com
 
 ### 20. Admin All Reviews Page
 ![Admin ALL Reviews](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/4bcaa7ca-f319-45a5-9b36-6773d53ad05f)
-
-
-#### Is this website fully Responsive?
-
-No, As of Now this website isn't fully Responsive. Some of our the part of this website is broken for small screen devices. Our team is working on this soon we will fix this.
