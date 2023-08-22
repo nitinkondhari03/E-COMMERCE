@@ -47,11 +47,13 @@ E-commerce is a an Indian online store that specializes in selling a wide range 
 ```
 ## Deployment
 
-To deploy this project run
-
+Backend Deployment
 ```bash
-npm run build
-npm run deploy
+https://cyclic.sh/
+```
+Frontend Deployment
+```bash
+https://vercel.com
 ```
 
 ## Pages
