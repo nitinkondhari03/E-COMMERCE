@@ -4,9 +4,9 @@ E-commerce is a an Indian online store that specializes in selling a wide range 
 
 ## Tech Stack
 
-**Front-end:** React, Redux, Chakra UI, Material UI, Mantine UI, NodeJS, Express JS, Ant-design UI,
+**Front-end:** React, Redux, CSS 
 
-**Back-end:** JSON-Server, JSON-Web-Token, CORS, DOTENV, Bcrypt (for hashing), Mongoose, Nodemon
+**Back-end:** Express, MongoDB, NodeJS 
 
 
 ## Deployment
