@@ -1,3 +1,6 @@
+.myOrdersPage{
+  margin-top: 10px;
+}
 .ordersd{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 10px 0px 10px 0px ;
@@ -48,6 +51,12 @@ h4{
 
 .detailes:hover {
   background-color: rgb(214, 84, 61);
+}
+.greenColor{
+  color: green;
+}
+.redColor{
+  color: red;
 }
 @media screen and (max-width: 600px){
 

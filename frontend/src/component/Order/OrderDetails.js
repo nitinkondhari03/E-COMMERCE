@@ -32,9 +32,9 @@ const {id}=useParams()
           <MetaData title="Order Details" />
           <div className="orderDetailsPage">
             <div className="orderDetailsContainer">
-              <Typography component="h1">
+              <h1>
                 Order #{order && order._id}
-              </Typography>
+              </h1>
               <Typography>Shipping Info</Typography>
               <div className="orderDetailsContainerBox">
                 <div>
