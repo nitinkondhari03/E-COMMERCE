@@ -27,9 +27,15 @@
 }
 
 .CartItemCard > div > p {
-  color: tomato;
-  font: 100 0.8vmax "Roboto";
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 0.8vmax 1vmax;
+  font: 300 0.8vmax "Roboto";
+  width: 30%;
   cursor: pointer;
+  border-radius: 30px;
+  margin: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,14 +52,20 @@
   }
 
   .CartItemCard > div > a {
-    font: 300 2vmax cursive;
+    font: 300 1vmax cursive;
   }
 
   .CartItemCard > div > span {
-    font: 300 1.9vmax "Roboto";
+    font: 300 1.5vmax "Roboto";
   }
-
   .CartItemCard > div > p {
-    font: 100 1.8vmax "Roboto";
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 0.8vmax 1vmax;
+    font: 300 0.7vmax "Roboto";
+    width: 30%;
+    cursor: pointer;
+    border-radius: 30px;
   }
 }

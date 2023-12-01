@@ -135,44 +135,44 @@
     grid-template-columns: 3fr 1fr 1fr;
   }
 
-  .cartContainer {
+  /* .cartContainer {
     width: 100%;
     grid-template-columns: 3fr 1fr 1fr;
-  }
+  } */
 
   .cartInput {
     height: 20vmax;
   }
 
-  .cartInput > button {
+  /* .cartInput > button {
     padding: 1.5vmax;
-  }
+  } */
 
-  .cartInput > input {
+  /* .cartInput > input {
     width: 2vmax;
     padding: 1.5vmax;
     font: 400 1.8vmax "Roboto";
-  }
+  } */
 
-  .cartSubtotal {
+  /* .cartSubtotal {
     padding: 1.5vmax;
     height: 20vmax;
     font: 300 2vmax "Roboto";
-  }
+  } */
 
-  .cartGrossProfit {
+  /* .cartGrossProfit {
     display: grid;
     grid-template-columns: 0fr 2fr;
-  }
+  } */
 
-  .cartGrossProfitBox {
+  /* .cartGrossProfitBox {
     padding: 2vmax;
     font: 300 2vmax "Roboto";
-  }
+  } */
 
   .checkOutBtn > button {
-    padding: 2vmax 4vmax;
+    padding: 1vmax 2vmax;
     width: 100%;
-    font: 300 2vmax "Roboto";
+    font: 300 1vmax "Roboto";
   }
 }
