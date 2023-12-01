@@ -50,7 +50,7 @@ const sliderImageUrl = [
 ];
 const SliderUp= () => {
   return (
-    <div >
+    <div style={{backgroundColor:"teal"}}>
       <Carousel
         responsive={responsive}
         autoPlay={true}

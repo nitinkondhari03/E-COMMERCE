@@ -9,19 +9,19 @@ import { Slider } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
 import { Typography } from "@mui/material";
 import MetaData from "../layout/MetaData";
-import Categorys from "../layout/Header/Categorys"
+import Categorys from "../layout/Header/Categorys";
 const categories = [
   "Mobile",
   "Laptop",
   "Headphones",
   "Mobile Cover",
   "Tablet",
-  "TV"
+  "TV",
 ];
 
 const Products = () => {
   const dispatch = useDispatch();
-const history=useNavigate()
+  const history = useNavigate();
   let { keywords } = useParams();
   const [currentPage, setCurrentPage] = useState(1);
   const [price, setPrice] = useState([0, 100000]);
@@ -50,10 +50,9 @@ const history=useNavigate()
     setPrice([price1 || 0, price2 || 100000]);
   };
   let count = filteredProductsCount;
-const handleckick=(x)=>{
- 
-  history(`/products/${x}`)
-}
+  const handleckick = (x) => {
+    history(`/products/${x}`);
+  };
   useEffect(() => {
     if (error) {
       alert(error);
@@ -71,112 +70,111 @@ const handleckick=(x)=>{
         <Loader />
       ) : (
         <>
-        <Categorys/>
-        
-        <div style={{ backgroundColor: "white" }}>
-          <MetaData title="PRODUCTS -- ECOMMERCE" />
-          <h2 className="productsHeading">Products</h2>
-          <button className="displaybutton" onClick={handlechandle}>
-            Filter
-          </button>
-          <div className="divflex">
-            <div className={displayblock ? "filterBox1" : "filterBox2"}>
-              <h4>Price Fliter</h4>
+          <Categorys />
 
-              <div className="priceset">
-                <input
-                  value={price1}
-                  onChange={(e) => setprice1(e.target.value)}
-                  placeholder="Min"
-                />
-                <input
-                  value={price2}
-                  onChange={(e) => setprice2(e.target.value)}
-                  placeholder="Max"
-                />
-                <button onClick={priceHandler}>Go</button>
+          <div style={{ backgroundColor: "white" }}>
+            <MetaData title="PRODUCTS -- ECOMMERCE" />
+            <h2 className="productsHeading">Products</h2>
+            <button className="displaybutton" onClick={handlechandle}>
+              Filter
+            </button>
+            <div className="divflex">
+              <div className={displayblock ? "filterBox1" : "filterBox2"}>
+                <h4>Price Fliter</h4>
+
+                <div className="priceset">
+                  <input
+                    value={price1}
+                    onChange={(e) => setprice1(e.target.value)}
+                    placeholder="Min"
+                  />
+                  <input
+                    value={price2}
+                    onChange={(e) => setprice2(e.target.value)}
+                    placeholder="Max"
+                  />
+                  <button onClick={priceHandler}>Go</button>
+                </div>
+
+                <h4>Categories</h4>
+                <ul className="categoryBox">
+                  {categories.map((category) => (
+                    <li
+                      className="category-link"
+                      key={category}
+                      onClick={() => handleckick(category)}
+                    >
+                      {category}
+                    </li>
+                  ))}
+                </ul>
+
+                <fieldset>
+                  <h4>Ratings Above</h4>
+                  <Slider
+                    value={ratings}
+                    onChange={(e, newRating) => {
+                      setRatings(newRating);
+                    }}
+                    aria-labelledby="continuous-slider"
+                    valueLabelDisplay="auto"
+                    min={0}
+                    max={5}
+                  />
+                </fieldset>
               </div>
+              <div className={"filterBox"}>
+                <h4>Price Fliter</h4>
 
-              <h4>Categories</h4>
-              <ul className="categoryBox">
-                {categories.map((category) => (
-                  <li
-                    className="category-link"
-                    key={category}
-                    onClick={() => handleckick(category)}
-                  >
-                    {category}
-                  </li>
-                ))}
-              </ul>
+                <div className="priceset">
+                  <input
+                    value={price1}
+                    onChange={(e) => setprice1(e.target.value)}
+                    placeholder="Min"
+                  />
+                  <input
+                    value={price2}
+                    onChange={(e) => setprice2(e.target.value)}
+                    placeholder="Max"
+                  />
+                  <button onClick={priceHandler}>Go</button>
+                </div>
 
-              <fieldset>
-                <h4>Ratings Above</h4>
-                <Slider
-                  value={ratings}
-                  onChange={(e, newRating) => {
-                    setRatings(newRating);
-                  }}
-                  aria-labelledby="continuous-slider"
-                  valueLabelDisplay="auto"
-                  min={0}
-                  max={5}
-                />
-              </fieldset>
-            </div>
-            <div className={"filterBox"}>
-              <h4>Price Fliter</h4>
+                <h4>Categories</h4>
+                <ul className="categoryBox">
+                  {categories.map((category) => (
+                    <li
+                      className="category-link"
+                      key={category}
+                      onClick={() => handleckick(category)}
+                    >
+                      {category}
+                    </li>
+                  ))}
+                </ul>
 
-              <div className="priceset">
-                <input
-                  value={price1}
-                  onChange={(e) => setprice1(e.target.value)}
-                  placeholder="Min"
-                />
-                <input
-                  value={price2}
-                  onChange={(e) => setprice2(e.target.value)}
-                  placeholder="Max"
-                />
-                <button onClick={priceHandler}>Go</button>
+                <fieldset>
+                  <h4>Ratings Above</h4>
+                  <Slider
+                    value={ratings}
+                    onChange={(e, newRating) => {
+                      setRatings(newRating);
+                    }}
+                    aria-labelledby="continuous-slider"
+                    valueLabelDisplay="auto"
+                    min={0}
+                    max={5}
+                  />
+                </fieldset>
               </div>
-
-              <h4>Categories</h4>
-              <ul className="categoryBox">
-                {categories.map((category) => (
-                  <li
-                    className="category-link"
-                    key={category}
-                    onClick={() => handleckick(category)}
-                  >
-                    {category}
-                  </li>
-                ))}
-              </ul>
-
-              <fieldset>
-                <h4>Ratings Above</h4>
-                <Slider
-                  value={ratings}
-                  onChange={(e, newRating) => {
-                    setRatings(newRating);
-                  }}
-                  aria-labelledby="continuous-slider"
-                  valueLabelDisplay="auto"
-                  min={0}
-                  max={5}
-                />
-              </fieldset>
+              <div className="products">
+                {products &&
+                  products.map((product) => (
+                    <ProductCard key={product._id} product={product} />
+                  ))}
+              </div>
             </div>
-            <div className="products">
-              {products &&
-                products.map((product) => (
-                  <ProductCard key={product._id} product={product} />
-                ))}
-            </div>
-          </div>
 
-         
             <div className="paginationBox">
               <Pagination
                 activePage={currentPage}
@@ -191,11 +189,9 @@ const handleckick=(x)=>{
                 linkClass="page-link"
                 activeClass="pageItemActive"
                 activeLinkClass="pageLinkActive"
-                
               />
             </div>
-         
-        </div>
+          </div>
         </>
       )}
     </Fragment>

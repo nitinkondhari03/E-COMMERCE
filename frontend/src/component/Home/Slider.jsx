@@ -38,7 +38,7 @@ const Slider = ({sliderImageUrl}) => {
       >
         {sliderImageUrl.map((imageUrl, index) => {
           return (
-            <Box  className="slider" key={index}>
+            <Box className="slider" key={index}>
               <Box h='70%'> <Image h='100%' className="sliderimg" src={imageUrl.url} alt="movie" /></Box>
               <Box h="15%" mt='5px'><Text  className="slidername" fontFamily={'Droid Sans'}  fontWeight={'bold'} textAlign={'center'}>Laptop</Text></Box>
               <Box h="10%"><Text className="sliderprice" fontFamily={'Droid Sans'}  color={'red'} fontWeight={'bold'}  textAlign={'center'}>₹{" "}7384</Text></Box>

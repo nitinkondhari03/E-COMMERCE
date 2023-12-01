@@ -17,7 +17,7 @@ const Footer = () => {
         <h1>ECOMMERCE.</h1>
         <p>High Quality is our first priority</p>
 
-        <p>Copyrights 2021 &copy; MeAbhiSingh</p>
+        <p>Designed and Developed by Nitin Kondhari © Copyright 2023. All rights reserved.</p>
       </div>
 
       <div className="rightFooter">

@@ -3,11 +3,23 @@
       width: 80%;
       margin:auto;
       overflow:"hidden";
-      padding:2rem 0;
+      padding:2rem 1rem 3rem 1rem;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
     .slider img {
       width: 100%;
       border-radius:10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      background-color: rgb(19, 18, 18);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .sliderimg:hover{
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
     }
     
     .react-multi-carousel-list {

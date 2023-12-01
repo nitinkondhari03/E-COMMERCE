@@ -2,11 +2,13 @@
   background-color: rgb(255, 255, 255);
   width: 100vw;
   max-width: 100%;
-  padding: 6vmax;
+  padding: 2vmax;
   box-sizing: border-box;
   display: flex;
 }
-
+#carouselrespo{
+  display: none;
+}
 .ProductDetails > div:last-child {
   width: 60%;
   border: 1px solid white;
@@ -22,6 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  height: 600px;
 }
 
 .ProductDetails > div:first-child {
@@ -32,8 +35,8 @@
 }
 
 .CarouselImage {
-  width: 70%;
- height: 60%;
+  width: 40%;
+ height: 100%;
  margin: auto;
 }
 
@@ -104,7 +107,7 @@
   color: white;
   transition: all 0.5s;
   background-color: tomato;
-  font: 500 0.7vmax "Roboto";
+  font: 500 1.2vmax "Roboto";
   border-radius: 20px;
   padding: 0.5vmax 2vmax;
   margin: 1vmax;
@@ -137,10 +140,10 @@
 .submitReview {
   border: none;
   background-color: tomato;
-  font: 500 0.7vmax "Roboto";
+  font: 500 1.2vmax "Roboto";
   border-radius: 20px;
   padding: 0.6vmax 2vmax;
-  margin: 1vmax 0;
+  margin: auto;
   color: white;
   cursor: pointer;
   transition: all 0.5s;
@@ -213,10 +216,19 @@
     flex-direction: column;
     height: unset;
   }
-
-  .CarouselImage {
-    width: 70%;
-   height: auto
+  #carouselrespo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 260px;
+  }
+  .ProductDetails > div:first-child {
+  display: none;
+  }
+  .CarouselImages {
+    width: 40%;
+   height: 100%
   }
 
   .ProductDetails > div:last-child {
