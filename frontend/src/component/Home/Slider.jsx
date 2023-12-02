@@ -26,13 +26,14 @@ const Slider = ({sliderImageUrl}) => {
     <div>
       <Carousel
         responsive={responsive}
-        // autoPlay={true}
+        autoPlay={true}
         swipeable={true}
         draggable={true}
         // showDots={true}
         infinite={true}
         partialVisible={false}
         dotListClass="custom-dot-list-style"
+        arrows={false}
         
        
       >

@@ -3,35 +3,39 @@
   height: 50px;
   display: flex;
   width: 100%;
-
 }
 .searchBox > input[type="text"] {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
   background-color: white;
   border: none;
   color: rgba(0, 0, 0, 0.637);
-  padding: 1vmax 2vmax;
+  padding: 1vmax 3vmax;
   width: 80%;
   outline: none;
-  border-radius: 0%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   font: 300 1.1vmax cursive;
   box-sizing: border-box;
   height: 100%;
 }
 
 .searchBox > input[type="submit"] {
-  padding: 18px 17px 15px 20px;
   border-radius: 0%;
-  background-color: rgb(241, 227, 22);
-
+  background-color: black;
   border: none;
   width: 20%;
-  font: 300 1.1vmax "Roboto";
+  font: 300 1.3vmax "Roboto";
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: white;
   transition: all 0.5s;
   border: 1px solid rgb(231, 219, 219);
   height: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  
 }
 
 .searchBox > input[type="submit"]:hover {
@@ -49,7 +53,6 @@
     width: 80%;
     height: 100%;
     font: 300 4vw cursive;
-    
   }
 
   .searchBox > input[type="submit"] {

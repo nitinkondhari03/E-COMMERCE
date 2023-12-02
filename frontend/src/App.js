@@ -12,7 +12,6 @@ import UserOptions from "./component/layout/Header/UserOptions"
 function App() {
   const dispatch = useDispatch();
   const { isAuthenticated, user } = useSelector((state) => state.user);
-
   useEffect(()=>{
     dispatch(loadUser());
   },[])
@@ -21,6 +20,8 @@ function App() {
     <Header/>
     <AllRoutes/>
    <Footer/>
+
+ 
     </div>
   );
 }

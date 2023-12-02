@@ -61,10 +61,11 @@ export default function AccountMenu() {
             src={user.avatar.url ? user.avatar.url : "/Profile.png"}
             alt="Profile"
           />
-          <h3 className="names">{user.name}</h3>
-          <h3><FiChevronDown style={{color:" rgb(190, 179, 17)"}}/></h3>
           </IconButton>
         </Tooltip>
+        <h3 onClick={handleClick} className="names">{user.name}</h3>
+        <h3 onClick={handleClick}><FiChevronDown style={{color:"black"}}/></h3>
+       
       </Box>
       <Menu
         anchorEl={anchorEl}

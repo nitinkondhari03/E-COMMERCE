@@ -77,15 +77,10 @@ const MyOrders = () => {
                     "2xl": "40%",
                   }}
                   h={"100%"}
-                 
-                  
                 >
-                  
                   <Image
                     w={"100%"}
-                  
-                   h={"auto"}
-                    
+                    h={"90%"}
                     src={el.orderItems[0].image}
                     alt="Caffe Latte"
                   />
