@@ -110,9 +110,11 @@
   background-color: rgb(179, 66, 46);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .updateProfileContainer {
     background-color: white;
+    width: 85%;
+    margin: auto;
   }
   .updateProfileBox {
     width: 100vw;
