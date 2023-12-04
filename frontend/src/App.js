@@ -20,8 +20,6 @@ function App() {
     <Header/>
     <AllRoutes/>
    <Footer/>
-
- 
     </div>
   );
 }

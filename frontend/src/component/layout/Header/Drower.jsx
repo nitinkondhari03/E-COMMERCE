@@ -11,7 +11,7 @@ import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector,useDispatch } from "react-redux";
 import {MdDashboard} from "react-icons/md"
 import {FiChevronDown} from "react-icons/fi"
@@ -44,6 +44,7 @@ export default function AccountMenu() {
     const myadmindash=()=>{
       history("/admin/dashboard")
     }
+  
   return (
     <div>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>

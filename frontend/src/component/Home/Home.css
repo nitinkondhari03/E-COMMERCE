@@ -11,17 +11,21 @@
   justify-content: center;
   color: white;
 }
-.slider{
+.slider {
   height: 250px;
 }
-.slidername{
+.slidername {
   font-size: 25px;
 }
-.sliderprice{
+.sliderprice {
   font-size: 16px;
 }
-.parent>h1{
-  color: black;
+.parent > h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #ff0062, #b94a00, #720172, #ccb807);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .banner > h1 {
   margin: 5vmax;
@@ -127,7 +131,7 @@
 
   transform: translateY(-1vmax);
 }
-.parent{
+.parent {
   background-color: rgb(255, 255, 255);
 }
 
@@ -149,14 +153,13 @@
     margin: 0 0.5vmax;
     font: 300 1vmax "Roboto";
   }
-  .slider{
+  .slider {
     height: 80px;
   }
-  .slidername{
+  .slidername {
     font-size: 18px;
   }
-  .sliderprice{
+  .sliderprice {
     font-size: 14px;
   }
- 
 }

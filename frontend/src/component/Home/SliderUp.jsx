@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Box,Text,Image} from "@chakra-ui/react"
+import "./Slider.css"
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -49,7 +50,7 @@ const sliderImageUrl = [
 ];
 const SliderUp= () => {
   return (
-    <div style={{backgroundColor:"teal",hight:"100%"}}>
+    <div className="sliderup" style={{hight:"100%"}}>
       <Carousel
         responsive={responsive}
         autoPlay={true}
@@ -65,7 +66,7 @@ const SliderUp= () => {
       >
         {sliderImageUrl.map((imageUrl, index) => {
           return (
-            <Box h="100%" key={index}>
+            <Box className="imgessliderup" h="100%" key={index}>
              <Image h={'100%'} w={'100%'} src={imageUrl.url} alt="movie" />
               
             </Box>

@@ -2,7 +2,9 @@ import React from "react";
 import playStore from "../../../images/playstore.png";
 import appStore from "../../../images/Appstore.png";
 import "./Footer.css";
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoPerson } from "react-icons/io5";
 const Footer = () => {
   return (
     <footer id="footer">
@@ -14,7 +16,7 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
-        <h1>ECOMMERCE.</h1>
+        <h1>ECOMMERCE</h1>
         <p>High Quality is our first priority</p>
 
         <p>Designed and Developed by Nitin Kondhari © Copyright 2023. All rights reserved.</p>
@@ -22,7 +24,9 @@ const Footer = () => {
 
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="http://instagram.com/kondharinitin">Instagram</a>
+        <a target="blank" href="https://nitinkondhari03.github.io/" >Portfolio{" "}<IoPerson/></a>
+        <a  target="blank"  href="https://github.com/nitinkondhari03">Github{" "}<FaGithub/></a>
+        <a  target="blank"  href="https://www.linkedin.com/in/nitinkondhari/">LInkedin{" "}<FaLinkedin/></a>
       </div>
     </footer>
   );
