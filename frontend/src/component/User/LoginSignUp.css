@@ -160,7 +160,7 @@
   transform: translateX(100%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .LoginSignUpContainer {
     background-color: white;
   }
