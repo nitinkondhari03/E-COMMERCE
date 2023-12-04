@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import {useParams} from "react-router-dom"
+import { useParams } from "react-router-dom";
 import Carousel from "react-material-ui-carousel";
 import "./ProductDetails.css";
 import { useSelector, useDispatch } from "react-redux";
@@ -25,7 +25,7 @@ import { NEW_REVIEW_RESET } from "../../Redux/constants/productConstants";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();
-  const {id}=useParams()
+  const { id } = useParams();
 
   const { product, loading, error } = useSelector(
     (state) => state.productDetails
@@ -134,7 +134,6 @@ const ProductDetails = () => {
                   ))}
               </Carousel>
             </div>
-            
 
             <div>
               <div className="detailsBlock-1">

@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { CgMouse } from "react-icons/cg";
 import "./Home.css";
-import ProductCard from "./ProductCard.jsx";
+
 import MetaData from "../layout/MetaData";
 import { clearErrors, getProduct } from "../../Redux/actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
@@ -941,7 +941,7 @@ const Home = () => {
         <div>
           <Categorys/>
           <SliderUp />
-         
+          
           <div  className="parent">
             <h1 style={{fontSize:"2.4vmax"}}>Laptop</h1>
             <Slider sliderImageUrl={Laptop}/>

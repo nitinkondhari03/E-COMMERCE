@@ -157,8 +157,9 @@
   margin-right: 10px;
   height: 20px;
 }
+
 @media screen and (max-width: 760px) {
-  .productsHeading{
+  .productsHeading {
     margin-top: -20px;
   }
   .filterprices > button {

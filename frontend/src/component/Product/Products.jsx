@@ -108,50 +108,7 @@ const Products = () => {
                   />
                 </div>
               </div>
-              {/* <div className={"filterBox"}>
-                <h4>Price Fliter</h4>
 
-                <div className="priceset">
-                  <input
-                    value={price1}
-                    onChange={(e) => setprice1(e.target.value)}
-                    placeholder="Min"
-                  />
-                  <input
-                    value={price2}
-                    onChange={(e) => setprice2(e.target.value)}
-                    placeholder="Max"
-                  />
-                  <button onClick={priceHandler}>Go</button>
-                </div>
-
-                <h4>Categories</h4>
-                <ul className="categoryBox">
-                  {categories.map((category) => (
-                    <li
-                      className="category-link"
-                      key={category}
-                      onClick={() => handleckick(category)}
-                    >
-                      {category}
-                    </li>
-                  ))}
-                </ul>
-
-                <fieldset>
-                  <h4>Ratings Above</h4>
-                  <Slider
-                    value={ratings}
-                    onChange={(e, newRating) => {
-                      setRatings(newRating);
-                    }}
-                    aria-labelledby="continuous-slider"
-                    valueLabelDisplay="auto"
-                    min={0}
-                    max={5}
-                  />
-                </fieldset>
-              </div> */}
               <div className="products">
                 {products &&
                   products.map((product) => (

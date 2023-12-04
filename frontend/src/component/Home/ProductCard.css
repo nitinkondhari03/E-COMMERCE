@@ -1,0 +1,28 @@
+#productcards{
+      height: 400px;
+      width: 100%;
+      display: block;
+}
+#productcardsimg{
+      height: 60%;
+      width: 100%; 
+}
+#productcardsimg>img{
+      height: 100%;
+      width: 100%; 
+}
+#productcardname{
+      height: 22%;
+      overflow: hidden;
+}
+#productcardrating{
+      height: 10%;  
+}
+#productcardprice{
+      height: 8%;
+      font-weight: bold;
+      color: red;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+}
