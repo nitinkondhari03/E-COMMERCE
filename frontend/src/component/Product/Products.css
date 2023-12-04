@@ -2,18 +2,58 @@
   margin: 2vmax auto;
   width: 15vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.171);
-  padding: 2vmax;
   color: rgba(0, 0, 0, 0.678);
   font: 500 1.5vmax "Roboto";
   text-align: center;
 }
-.divflex{
-  display: flex;
+.divflex {
   width: 100%;
 }
-.products {
-  width: 90%;
+#pricesh4 {
+  color: blue;
+  font-size: 1.2vmax;
+}
+#ratingh4 {
+  color: blue;
+  font-size: 1.2vmax;
+}
+.Filterss {
   display: flex;
+  justify-content: space-evenly;
+}
+.filterprices > input {
+  width: 20%;
+  height: 20px;
+  margin-right: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  border: none;
+  color: rgba(0, 0, 0, 0.637);
+  padding-top: 1vmax;
+  padding-bottom: 1vmax;
+  padding-right: 0.5vmax;
+  outline: none;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.filterprices > button {
+  background-color: black;
+  border: none;
+  width: 15%;
+  font: 300 1vmax "Roboto";
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  border: 1px solid rgb(231, 219, 219);
+  height: 20px;
+  padding-top: 0.5vmax;
+  padding-bottom: 1.5vmax;
+}
+.products {
+  width: 100%;
+  display: flex;
+  margin: auto;
   flex-wrap: wrap;
   justify-content: center;
   min-height: 30vh;
@@ -70,13 +110,13 @@
 }
 
 .filterBox {
- width: 15%;
- padding-left: 20px;
- padding-right: 20px;
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- height: 100vh;
+  width: 15%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100vh;
 }
-.h4{
+.h4 {
   padding-top: 20px;
 }
 
@@ -100,50 +140,63 @@
 .filterBox > fieldset {
   border: 1px solid rgba(0, 0, 0, 0.329);
 }
-.displaybutton{
+.displaybutton {
   display: none;
 }
-.filterBox1{
+.filterBox1 {
   display: none;
 }
-.filterBox2{
+.filterBox2 {
   display: none;
 }
-.priceset{
+.priceset {
   display: flex;
-
 }
-.priceset>input{
+.priceset > input {
   width: 40%;
   margin-right: 10px;
   height: 20px;
 }
-
+@media screen and (max-width: 760px) {
+  .filterprices > button {
+    background-color: black;
+    border: none;
+    width: 15%;
+    font: 300 1vmax "Roboto";
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    border: 1px solid rgb(231, 219, 219);
+    height: 20px;
+    padding-top: 1vmax;
+    padding-bottom: 1.8vmax;
+  }
+}
 @media screen and (max-width: 600px) {
-  .products{
+  .products {
     width: 100%;
   }
-  .filterBox{
+  .filterBox {
     display: none;
   }
   .filterBox1 {
     display: block;
     width: 45%;
     position: absolute;
-   z-index: 3;
-   background-color: white;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   padding-right: 20px;
-   height: auto;
-   margin-bottom: 100px;
+    z-index: 3;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-right: 20px;
+    height: auto;
+    margin-bottom: 100px;
   }
-  h4{
+  h4 {
     color: rgb(23, 43, 223);
   }
-  .filterBox2{
+  .filterBox2 {
     display: none;
   }
-  .displaybutton{
+  .displaybutton {
     display: block;
   }
 

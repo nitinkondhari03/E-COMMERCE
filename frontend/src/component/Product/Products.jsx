@@ -61,9 +61,7 @@ const Products = () => {
 
     dispatch(getProduct(keyword, currentPage, price, category, ratings));
   }, [dispatch, keyword, currentPage, price, category, ratings, alert, error]);
-  const handlechandle = () => {
-    setdisplayblock(!displayblock);
-  };
+
   return (
     <Fragment>
       {loading ? (
@@ -75,11 +73,42 @@ const Products = () => {
           <div style={{ backgroundColor: "white" }}>
             <MetaData title="PRODUCTS -- ECOMMERCE" />
             <h2 className="productsHeading">Products</h2>
-            <button className="displaybutton" onClick={handlechandle}>
-              Filter
-            </button>
+
             <div className="divflex">
-              <div className={displayblock ? "filterBox1" : "filterBox2"}>
+              <div className="Filterss">
+                <div>
+                  <div id="pricesh4">
+                    <h4>Price Fliter</h4>
+                  </div>
+                  <div className="filterprices">
+                    <input
+                      value={price1}
+                      onChange={(e) => setprice1(e.target.value)}
+                      placeholder="Min"
+                    />
+                    <input
+                      value={price2}
+                      onChange={(e) => setprice2(e.target.value)}
+                      placeholder="Max"
+                    />
+                    <button onClick={priceHandler}>Go</button>
+                  </div>
+                </div>
+                <div id="ratingh4">
+                  <h4>Ratings Above</h4>
+                  <Slider
+                    value={ratings}
+                    onChange={(e, newRating) => {
+                      setRatings(newRating);
+                    }}
+                    aria-labelledby="continuous-slider"
+                    valueLabelDisplay="auto"
+                    min={0}
+                    max={5}
+                  />
+                </div>
+              </div>
+              {/* <div className={"filterBox"}>
                 <h4>Price Fliter</h4>
 
                 <div className="priceset">
@@ -122,51 +151,7 @@ const Products = () => {
                     max={5}
                   />
                 </fieldset>
-              </div>
-              <div className={"filterBox"}>
-                <h4>Price Fliter</h4>
-
-                <div className="priceset">
-                  <input
-                    value={price1}
-                    onChange={(e) => setprice1(e.target.value)}
-                    placeholder="Min"
-                  />
-                  <input
-                    value={price2}
-                    onChange={(e) => setprice2(e.target.value)}
-                    placeholder="Max"
-                  />
-                  <button onClick={priceHandler}>Go</button>
-                </div>
-
-                <h4>Categories</h4>
-                <ul className="categoryBox">
-                  {categories.map((category) => (
-                    <li
-                      className="category-link"
-                      key={category}
-                      onClick={() => handleckick(category)}
-                    >
-                      {category}
-                    </li>
-                  ))}
-                </ul>
-
-                <fieldset>
-                  <h4>Ratings Above</h4>
-                  <Slider
-                    value={ratings}
-                    onChange={(e, newRating) => {
-                      setRatings(newRating);
-                    }}
-                    aria-labelledby="continuous-slider"
-                    valueLabelDisplay="auto"
-                    min={0}
-                    max={5}
-                  />
-                </fieldset>
-              </div>
+              </div> */}
               <div className="products">
                 {products &&
                   products.map((product) => (
