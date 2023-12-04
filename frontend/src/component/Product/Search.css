@@ -14,7 +14,7 @@
   outline: none;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  font: 300 1.1vmax cursive;
+  font: 300 1.3vmax "cursive";
   box-sizing: border-box;
   height: 80%;
 }
@@ -52,7 +52,7 @@
     outline: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    font: 300 1.1vmax cursive;
+    font: 300 1.3vmax "cursive";
     box-sizing: border-box;
     height: 70%;
   }
@@ -88,7 +88,7 @@
   .searchBox > input[type="text"] {
     width: 85%;
     height: 80%;
-    font: 300 1.8vw cursive;
+    font: 300 1.8vw "cursive";
     
   }
 
