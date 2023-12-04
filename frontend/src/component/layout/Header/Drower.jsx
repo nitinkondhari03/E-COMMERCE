@@ -18,6 +18,7 @@ import {FiChevronDown} from "react-icons/fi"
 import {useNavigate} from "react-router-dom"
 import { logout } from "../../../Redux/actions/userAction";
 export default function AccountMenu() {
+  const[names,setnames]=useState()
       const history=useNavigate()
   const [anchorEl, setAnchorEl] =useState(null);
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -44,7 +45,12 @@ export default function AccountMenu() {
     const myadmindash=()=>{
       history("/admin/dashboard")
     }
-  
+  useEffect(()=>{
+    if(user){
+      let x=user.name.split(" ")
+      setnames(x[0])
+    }
+  },[user])
   return (
     <div>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
@@ -64,7 +70,7 @@ export default function AccountMenu() {
           />
           </IconButton>
         </Tooltip>
-        <h3 onClick={handleClick} className="names">{user.name}</h3>
+        <h3 onClick={handleClick} className="names">{names}</h3>
         <h3 onClick={handleClick}><FiChevronDown style={{color:"black"}}/></h3>
        
       </Box>
