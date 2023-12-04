@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   top: 0%;
   left: 0;
 }
@@ -16,6 +16,7 @@
   height: 70vh;
   box-sizing: border-box;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .login_signUp_toggle {
   display: flex;
