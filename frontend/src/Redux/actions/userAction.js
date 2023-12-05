@@ -169,20 +169,34 @@ export const updatePassword = (passwords) => async (dispatch) => {
 
 // Forgot Password
 export const forgotPassword = (email) => async (dispatch) => {
-  try {
+  // try {
+  //   dispatch({ type: FORGOT_PASSWORD_REQUEST });
+
+  //   const config = { headers: { "Content-Type": "application/json" } };
+
+  //   const { data } = await axios.post(
+  //     `https://pink-helpful-lamb.cyclic.app/api/v1/password/forgot`,
+  //     email,
+  //     {
+  //       headers: {
+  //         Authorization: `${x}`,
+  //       },
+  //     }
+  //   );
+
+  //   dispatch({ type: FORGOT_PASSWORD_SUCCESS, payload: data.message });
+  // } catch (error) {
+  //   dispatch({
+  //     type: FORGOT_PASSWORD_FAIL,
+  //     payload: error.response.data.message,
+  //   });
+  // }
+   try {
     dispatch({ type: FORGOT_PASSWORD_REQUEST });
 
     const config = { headers: { "Content-Type": "application/json" } };
 
-    const { data } = await axios.post(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/password/forgot`,
-      email,
-      {
-        headers: {
-          Authorization: `${x}`,
-        },
-      }
-    );
+    const { data } = await axios.post(`https://pink-helpful-lamb.cyclic.app/api/v1/password/forgot`, email, config);
 
     dispatch({ type: FORGOT_PASSWORD_SUCCESS, payload: data.message });
   } catch (error) {
