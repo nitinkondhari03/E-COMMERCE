@@ -8,9 +8,8 @@
 }
 
 .LoginSignUpBox {
-
   width: 30vw;
-  height: 80%;
+  height: 90%;
   box-sizing: border-box;
   overflow: hidden;
   border: 1px solid rgb(181, 180, 180);
@@ -165,8 +164,8 @@
     margin: auto;
   }
   .LoginSignUpBox {
-    width: 100vw;
-    height: 95vh;
+    width: 80vw;
+    height: 400px;
   }
   .login_signUp_toggle {
     height: 5vmax;
