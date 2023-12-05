@@ -1,12 +1,12 @@
 const ErrorHander = require("../utils/errorhander");
 const catchAsynError = require("../middleware/catchAsyncErrors");
-
+const dotenv=require("dotenv")
 const User = require("../model/userModel");
 const sendToken = require("../utils/jwtToken");
 const sendEmail = require("../utils/sendEmail");
 const crypto=require("crypto")
 const cloudinary=require("cloudinary")
-
+dotenv.config({path:"config/config.env"})
 //Register a User
 
 exports.registerUser = catchAsynError(async (req, res, next) => {
@@ -86,9 +86,7 @@ exports.forgotPassword = catchAsynError(async (req, res, next) => {
 
   await user.save({ validateBeforeSave: false });
 
-  const resetPasswordUrl = `${req.protocol}://${req.get(
-    "ecommerce-ruby-ten.vercel.app"
-  )}/password/reset/${resetToken}`;
+  const resetPasswordUrl = `${req.protocol}://${req.get(process.env.FRONTEND_URL_SENDMAIL)}/password/reset/${resetToken}`;
 
   const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
 
