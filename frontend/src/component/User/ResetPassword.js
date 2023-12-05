@@ -53,7 +53,7 @@ console.log(token)
           <MetaData title="Change Password" />
           <div className="resetPasswordContainer">
             <div className="resetPasswordBox">
-              <h2 className="resetPasswordHeading">Update Profile</h2>
+              <h2 className="resetPasswordHeading">Update Password</h2>
 
               <form
                 className="resetPasswordForm"

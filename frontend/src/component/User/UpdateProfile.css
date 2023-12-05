@@ -1,17 +1,16 @@
 .updateProfileContainer {
-  width: 100vw;
-  height: 100vh;
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
-  position: fixed;
-  top: 0%;
-  left: 0;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .updateProfileBox {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid rgb(180, 170, 170);
   background-color: white;
   width: 25vw;
   height: 70vh;
@@ -109,16 +108,16 @@
 .updateProfileBtn:hover {
   background-color: rgb(179, 66, 46);
 }
-
 @media screen and (max-width: 1200px) {
-  .updateProfileContainer {
-    background-color: white;
-    width: 85%;
-    margin: auto;
-  }
   .updateProfileBox {
-    width: 100vw;
-    height: 95vh;
+    width: 60vw;
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .updateProfileBox {
+    width: 80vw;
+    height: 80vh;
   }
 
   .updateProfileForm {
