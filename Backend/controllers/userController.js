@@ -88,7 +88,7 @@ exports.forgotPassword = catchAsynError(async (req, res, next) => {
 
   const resetPasswordUrl = `https://ecommerce-ruby-ten.vercel.app/password/reset/${resetToken}`;
 
-  const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
+  const message = `Your password reset token is :-\n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
 
   try {
     await sendEmail({
