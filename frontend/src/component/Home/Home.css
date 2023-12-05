@@ -137,7 +137,25 @@
 .parent {
   background-color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 800px){
+  .productCard > p {
+    font-size: 1vmax;
+  }
 
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Roboto";
+  }
+}
 @media screen and (max-width: 600px) {
   .productCard > p {
     font-size: 1.7vmax;

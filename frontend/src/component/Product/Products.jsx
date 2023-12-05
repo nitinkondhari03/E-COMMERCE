@@ -41,7 +41,7 @@ const Products = () => {
   } = useSelector((state) => state.products);
 
   const keyword = keywords;
-
+console.log(keyword)
   const setCurrentPageNo = (e) => {
     setCurrentPage(e);
   };
