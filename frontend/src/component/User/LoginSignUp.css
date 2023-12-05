@@ -1,19 +1,22 @@
 .LoginSignUpContainer {
-  width: 100vw;
-  height: 600px;
+
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(255, 255, 255);
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .LoginSignUpBox {
-  width: 30vw;
-  height: 90%;
-  box-sizing: border-box;
-  overflow: hidden;
-  border: 1px solid rgb(181, 180, 180);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid rgb(180, 170, 170);
+  background-color: white;
+  width: 25vw;
+  height: 70vh;
+  box-sizing: border-box;
+overflow: hidden;
 }
 .login_signUp_toggle {
   display: flex;
@@ -35,10 +38,9 @@
 .LoginSignUpBox > div > button {
   background-color: tomato;
   height: 3px;
-  width: 48%;
+  width: 50%;
   border: none;
   transition: all 0.5s;
-  margin-left: -200px;
 }
 
 .loginForm,
@@ -157,15 +159,13 @@
   transform: translateX(100%);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   .LoginSignUpContainer {
     background-color: white;
-    width: 80%;
-    margin: auto;
   }
   .LoginSignUpBox {
-    width: 80vw;
-    height: 400px;
+    width: 70vw;
+    height: 80vh;
   }
   .login_signUp_toggle {
     height: 5vmax;
