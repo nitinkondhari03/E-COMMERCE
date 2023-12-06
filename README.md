@@ -61,7 +61,7 @@ https://vercel.com
 -   Home Page
 -   Login page
 -   Register page
--   Forget Password page
+-   Forget The Password page
 -   My Profile Page
 -   Update Profile page
 -   Product page
@@ -74,7 +74,7 @@ https://vercel.com
 -   Order Details Page
 -   Admin Dashboard page
 -   Admin Product page
--   Admin Create Product page
+-   Admin Create a Product page
 -   Admin All Orders Page
 -   Admin All Users Page
 -   Admin All Reviews Page
