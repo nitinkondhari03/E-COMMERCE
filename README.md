@@ -42,7 +42,6 @@ E-commerce is a an Indian online store that specializes in selling a wide range 
    npm i mongoose
    npm i nodemailer
    npm i nodemon
-   npm i stripe
    npm i validator
 ```
 ## Deployment
