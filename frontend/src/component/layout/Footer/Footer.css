@@ -40,8 +40,13 @@ footer {
 
 .midFooter > h1 {
   font-size: 2.5vmax;
-  font-family: "Roboto";
   color: #eb4034;
+  font-weight: bolder;
+  text-shadow: 0px 0px 2px #33c6b7;
+}
+.midFooter>div>img{
+height: 200px;
+width: 200px;
 }
 .midFooter > p {
   max-width: 60%;
@@ -74,4 +79,34 @@ footer {
 
 .rightFooter > a:hover {
   color: #eb4034;
+}
+@media screen and (max-width: 1170px) {
+  .midFooter>div>img{
+    height: 180px;
+    width: 190px;
+    }
+}
+@media screen and (max-width: 900px) {
+  .midFooter>div>img{
+    height: 150px;
+    width: 150px;
+    }
+}
+@media screen and (max-width: 700px) {
+  .midFooter>div>img{
+    height: 110px;
+    width: 110px;
+    }
+}
+@media screen and (max-width: 500px) {
+  .midFooter>div>img{
+    height: 100px;
+    width: 100px;
+    }
+}
+@media screen and (max-width: 400px) {
+  .midFooter>div>img{
+    height: 90px;
+    width: 90px;
+    }
 }

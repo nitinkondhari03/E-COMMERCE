@@ -11,7 +11,7 @@ import AccountMenu from "./Drower"
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { useNavigate } from "react-router-dom";
 import Categorys from "./Categorys";
-import clickshop from "../../../images/clickshop.avif"
+import clickshop from "../../../images/Ecommerce.png"
 const Header = () => {
   const navigates=useNavigate()
   const { isAuthenticated, user } = useSelector((state) => state.user);

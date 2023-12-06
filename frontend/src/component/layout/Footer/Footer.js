@@ -1,6 +1,7 @@
 import React from "react";
 import playStore from "../../../images/playstore.png";
 import appStore from "../../../images/Appstore.png";
+import clickshop from "../../../images/Ecommerce.png"
 import "./Footer.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -16,7 +17,9 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
-        <h1>ECOMMERCE</h1>
+        <div>
+          <img  height={'100%'} src={clickshop} alt="Logo"/>
+        </div>
         <p>High Quality is our first priority</p>
 
         <p>Designed and Developed by Nitin Kondhari © Copyright 2023. All rights reserved.</p>
