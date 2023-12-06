@@ -1,6 +1,6 @@
 # E-commerce
 
-E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
+E-commerce is an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
 
 ## Tech Stack
 
@@ -101,26 +101,25 @@ https://vercel.com
 ## ScreenShots
 
 ### 1. Homepage
-![Home page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/a76c4675-c0f7-4f1f-ab2a-34c7d6f4fbff)
+![HomePage](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c4db0240-482c-45d0-bad9-97f3f8fdbd3a)
 
 ### 2. Login
-![Login](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/6097d2d1-4a92-4e33-bc03-91bd2a0238f6)
+![Login](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/9bc11fca-8289-4195-9d04-1355dcfb63ed)
 
 ### 3. Register
-![Register](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/eddad7a0-7b13-4e17-9601-923e4f906d63)
-
+![REGISTER](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/a8710a82-0f1a-49e5-81ae-a16a843d174c)
 
 ### 4. Forget Password
-![Forget Password](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/d4c307ab-2e0e-4451-8656-57ed5ba95c85)
+![Forgot Password](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/7218a152-91de-46c8-af6b-081af86255e9)
 
 ### 5. My Profile
-![my Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/23d72b29-7492-44aa-a107-52147e66b150)
+![My Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c56133f7-87f1-45ce-a40e-fea3db1d6395)
 
 ### 6. Update Profile
-![Update Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/b85ff0ce-57b8-437e-b7cd-09e1a0d48b93)
+![Update Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/98a14fae-6ade-48c2-bfb9-479021af05bd)
 
 ### 7. Product page
-![Product page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/ba60f41b-5364-453c-b6fb-a5bab7f90179)
+![Products](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c14d01ed-1457-4451-a354-d41afba9996d)
 
 ### 8. Product Details Page
 ![Product detailes](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/dac43060-3a43-4c7a-b533-9ba4654d648b)
