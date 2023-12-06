@@ -23,7 +23,7 @@ const UpdateUser = () => {
   const {id}=useParams()
 
   const { loading, error, user } = useSelector((state) => state.userDetails);
-console.log(user)
+
   const {
     loading: updateLoading,
     error: updateError,

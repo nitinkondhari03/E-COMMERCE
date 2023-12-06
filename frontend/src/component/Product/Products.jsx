@@ -39,9 +39,8 @@ const Products = () => {
     resultPerPage,
     filteredProductsCount,
   } = useSelector((state) => state.products);
-
   const keyword = keywords;
-console.log(keyword)
+
   const setCurrentPageNo = (e) => {
     setCurrentPage(e);
   };
@@ -58,9 +57,10 @@ console.log(keyword)
       alert(error);
       dispatch(clearErrors());
     }
-
+    
+   setCategory(keywords)
     dispatch(getProduct(keyword, currentPage, price, category, ratings));
-  }, [dispatch, keyword, currentPage, price, category, ratings, alert, error]);
+  }, [dispatch,keyword, currentPage, price,category, ratings, alert, error]);
 
   return (
     <Fragment>
@@ -121,7 +121,7 @@ console.log(keyword)
               <Pagination
                 activePage={currentPage}
                 itemsCountPerPage={resultPerPage}
-                totalItemsCount={productsCount}
+                totalItemsCount={filteredProductsCount}
                 onChange={setCurrentPageNo}
                 nextPageText="Next"
                 prevPageText="Prev"

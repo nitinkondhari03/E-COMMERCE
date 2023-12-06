@@ -17,7 +17,7 @@ let x = localStorage.getItem("token");
           });
   
       setStripeApiKey(data.stripeApiKey);
-      console.log(data.stripeApiKey)
+     
     }
 useEffect(()=>{
      

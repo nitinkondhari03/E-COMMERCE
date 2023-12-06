@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Slider.css";
 import { Box, Text, Image } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -22,6 +23,10 @@ const responsive = {
 };
 
 const Slider = ({ sliderImageUrl }) => {
+const navigets=useNavigate()
+  const handlenavlink=(id)=>{
+navigets(`/product/${id}`)
+  }
   return (
     <div>
       <Carousel
@@ -38,7 +43,8 @@ const Slider = ({ sliderImageUrl }) => {
       >
         {sliderImageUrl.map((imageUrl, index) => {
           return (
-            <Box className="slider" key={index}>
+            
+            <Box className="slider" onClick={()=>handlenavlink(imageUrl._id)} key={imageUrl._id}>
               <div className="sliderimg">
                 <img src={imageUrl.images[0].url} alt="movie" />
               </div>

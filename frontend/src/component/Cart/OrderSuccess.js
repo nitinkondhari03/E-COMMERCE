@@ -11,7 +11,7 @@ const OrderSuccess = () => {
   const { cartItems } = useSelector((state) => state.cart);
 
   cartItems.forEach((item) => {
-      console.log(item.product)
+      
       dispatch(removeItemsFromCart(item.product));
     })
   return (

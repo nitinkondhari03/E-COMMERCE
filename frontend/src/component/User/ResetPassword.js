@@ -12,7 +12,6 @@ const ResetPassword = () => {
   const dispatch = useDispatch();
  const history=useNavigate()
  const {token}=useParams()
-console.log(token)
   const { error, success, loading } = useSelector(
     (state) => state.forgotPassword
   );

@@ -50,7 +50,7 @@ export const login = (email, password) => async (dispatch) => {
       { email, password },
       config
     );
-    console.log(x);
+  
     let y = x.data;
     localStorage.setItem("token", y.token);
     dispatch({ type: LOGIN_SUCCESS, payload: y.user });
@@ -84,7 +84,7 @@ export const register = (userData) => async (dispatch) => {
 
 // Load User
 export const loadUser = () => async (dispatch) => {
-  console.log(x);
+ 
   try {
     dispatch({ type: LOAD_USER_REQUEST });
 
@@ -142,7 +142,6 @@ export const updateProfile = (userData) => async (dispatch) => {
 
 // Update Password
 export const updatePassword = (passwords) => async (dispatch) => {
-  console.log(passwords);
   try {
     dispatch({ type: UPDATE_PASSWORD_REQUEST });
 

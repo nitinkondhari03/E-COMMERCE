@@ -38,10 +38,10 @@ const MyOrders = () => {
     dispatch(myOrders());
   }, [dispatch, alert, error]);
   const handledeltaile = (el) => {
-    console.log(el);
+ 
     history(`/order/${el}`);
   };
-  console.log(orders);
+
 
   if(loading){
     return  <Loader />
@@ -143,6 +143,7 @@ const MyOrders = () => {
                   Order Status:
                   {el.orderStatus && el.orderStatus}
                 </p>
+                <p style={{color:"green"}}>Order Items: {el.orderItems.length}</p>
                 <p>
                   <Button
                     margin={"auto"}
