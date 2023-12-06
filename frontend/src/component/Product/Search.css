@@ -41,6 +41,34 @@
 .searchBox > input[type="submit"]:hover {
   background-color: rgb(182, 171, 20);
 }
+.showproduct{
+  height: 500px;
+}
+
+.showproductdata{
+   width: 400px;
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
+  background-color: white;
+  z-index: 10;
+  height:100%;
+  overflow: scroll;
+  padding-left: 1rem;
+  font: 300 1.1vmax "cursive";
+}
+.searchprodcuts{
+  display: flex;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(217, 213, 213);
+}
+.searchprodcuts>div>img{
+  height: 30px;
+  width: 40px;
+}
+.searchprodcuts>div>p{
+ color: blue;
+}
 @media screen and (max-width: 1074px) {
   .searchBox > input[type="text"] {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
@@ -78,6 +106,14 @@
 }
 
  @media screen and (max-width: 800px) {
+  .showproduct{
+    height: 350px;
+  }
+  .showproductdata{
+    width: 60%;
+    margin: auto;
+    font: 300 1.8vw "cursive";
+  }
   .searchBox {
     height: 40px;
     display: flex;

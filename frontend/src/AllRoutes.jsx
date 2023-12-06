@@ -33,12 +33,14 @@ import UpdateUser from "./component/Admin/UpdateUser";
 
 
  import ProtectedAdmin from "./component/Route/ProtectedRouteAdmin"
+import ProductsSearch from "./component/Product/ProductsSearch.jsx";
 const AllRoutes=()=>{
       return(
             <Routes>
                   <Route path="/" element={<Home/>}></Route>
                   <Route path="/products" element={<Products/>}></Route>
                   <Route path="/products/:keywords" element={<Products/>} />
+                  <Route path="/products/search/:keywords" element={<ProductsSearch/>} />
                   <Route path="/product/:id" element={<ProductDetails/>}></Route>
                   <Route path="/login" element={<LoginSignUp/>}></Route>
                   <Route path="/about" element={<About/>}></Route>
