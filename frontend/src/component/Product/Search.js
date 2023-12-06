@@ -40,6 +40,7 @@ const history=useNavigate()
    if(keyword=="" || valueRef.current.value==""){
     setdata("")
    }else{
+    history(`/products/search/${valueRef.current.value}`);
     dispatch(getProduct(valueRef.current.value, currentPage, price, category, ratings));
     setdata(products)
    }

@@ -24,9 +24,9 @@
 .parent > h1 {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #ff0062, #b94a00, #720172, #ccb807);
-  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#ff5d5d, #4c2e2e);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .banner > h1 {
   margin: 5vmax;

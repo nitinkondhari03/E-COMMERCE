@@ -6,6 +6,8 @@ const Categorys = () => {
     history(`/products/${x}`)
   }
   return (
+    <div>
+      <h1 id="allcategroys" style={{ fontSize: "1.4vmax"}}>All Categories</h1>
     <div className="catory" style={{ display: "flex", justifyContent:'space-evenly' }}>
       <div>
         <div className="imgesd" onClick={()=>handleClick("Mobile")}>
@@ -73,6 +75,7 @@ const Categorys = () => {
           <h4>TV</h4>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -34,9 +34,9 @@ const Home = () => {
             <Loader />
          ) : (
             <div>
+               
                <Categorys />
                <SliderUp />
-
                <div className="parent">
                   <h1 style={{ fontSize: "2.4vmax" }}>Laptop</h1>
                   <Slider sliderImageUrl={Laptop} />
