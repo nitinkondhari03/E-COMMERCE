@@ -1,6 +1,6 @@
 # E-commerce
 
-E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
+E-commerce is an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
 
 ## Tech Stack
 
@@ -42,7 +42,6 @@ E-commerce is a an Indian online store that specializes in selling a wide range 
    npm i mongoose
    npm i nodemailer
    npm i nodemon
-   npm i stripe
    npm i validator
 ```
 ## Deployment
@@ -61,7 +60,7 @@ https://vercel.com
 -   Home Page
 -   Login page
 -   Register page
--   Forget Password page
+-   Forget The Password page
 -   My Profile Page
 -   Update Profile page
 -   Product page
@@ -74,7 +73,7 @@ https://vercel.com
 -   Order Details Page
 -   Admin Dashboard page
 -   Admin Product page
--   Admin Create Product page
+-   Admin Create a Product page
 -   Admin All Orders Page
 -   Admin All Users Page
 -   Admin All Reviews Page
@@ -102,32 +101,31 @@ https://vercel.com
 ## ScreenShots
 
 ### 1. Homepage
-![Home page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/a76c4675-c0f7-4f1f-ab2a-34c7d6f4fbff)
+![HomePage](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c4db0240-482c-45d0-bad9-97f3f8fdbd3a)
 
 ### 2. Login
-![Login](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/6097d2d1-4a92-4e33-bc03-91bd2a0238f6)
+![Login](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/9bc11fca-8289-4195-9d04-1355dcfb63ed)
 
 ### 3. Register
-![Register](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/eddad7a0-7b13-4e17-9601-923e4f906d63)
-
+![REGISTER](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/a8710a82-0f1a-49e5-81ae-a16a843d174c)
 
 ### 4. Forget Password
-![Forget Password](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/d4c307ab-2e0e-4451-8656-57ed5ba95c85)
+![Forgot Password](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/7218a152-91de-46c8-af6b-081af86255e9)
 
 ### 5. My Profile
-![my Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/23d72b29-7492-44aa-a107-52147e66b150)
+![My Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/65308b0e-bd2a-4dca-bd57-63ef4a22b3fd)
 
 ### 6. Update Profile
-![Update Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/b85ff0ce-57b8-437e-b7cd-09e1a0d48b93)
+![Update Profile](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/98a14fae-6ade-48c2-bfb9-479021af05bd)
 
 ### 7. Product page
-![Product page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/ba60f41b-5364-453c-b6fb-a5bab7f90179)
+![Products](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c14d01ed-1457-4451-a354-d41afba9996d)
 
 ### 8. Product Details Page
 ![Product detailes](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/dac43060-3a43-4c7a-b533-9ba4654d648b)
 
 ### 9. Cart Page
-![cart page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/68d33833-ebc1-434e-bd63-c9730a430064)
+![Cart Page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/9808d249-f925-4199-86d8-47abe071c323)
 
 ### 10. Shipping Details
 ![shipping Details page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/e96923a7-b033-47ee-89ba-12741a640f30)
@@ -135,14 +133,14 @@ https://vercel.com
 ### 11. Shipping Info
 ![shipping Detailssdd page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/70c74c49-4add-4c4a-824c-211c6e571b82)
 
-### 12. payment Page
-![paymet page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/5b215712-d195-4267-b834-26da5f0d6555)
+### 12. Payment Page
+![Payment Page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/3b189a0f-48a1-48c8-8f29-99d5e6deefb3)
 
 ### 13. Orders Page
-![oders pages](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/877cc8e2-0e02-4bf5-9f73-be57759e1fa5)
+![Orders Page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c50f0f13-388f-49fc-a227-ecd8d6653bb3)
 
 ### 14. Order Details Page
-![oders detailes page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/35069b7e-a132-4e80-bd2c-d0e969d9ff8e)
+![Order Details Page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/325447e9-1c46-4832-8b19-992daca0a67a)
 
 ### 15. Admin Dashboard
 ![Dashboard page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/43c76293-6b53-4370-a670-3afb466eaf00)
@@ -151,7 +149,7 @@ https://vercel.com
 ![admin all product](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/263681b9-68f9-43e1-8932-4865ced1416c)
 
 ### 17. Admin Create Product page
-![admin create products](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/d45d123f-c6fe-49e7-9da5-0726936da341)
+![Admin Create Product page](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/d8a47eb4-bb6c-46df-8fa0-e8660b3b2b6e)
 
 ### 18. Admin All Orders Page
 ![Admin All Orders](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/57ca7c5f-ea7d-498c-bfda-77a8918ec265)
