@@ -55,17 +55,24 @@ const NewProduct = () => {
   const createProductSubmitHandler = (e) => {
     e.preventDefault();
 
-    const myForm = new FormData();
+    const myForm = {
+      name:name,
+      price:price,
+      description:description,
+      category:category,
+      stock:Stock,
+      images:{url:images}
+    }
 
-    myForm.set("name", name);
-    myForm.set("price", price);
-    myForm.set("description", description);
-    myForm.set("category", category);
-    myForm.set("Stock", Stock);
-
-    images.forEach((image) => {
-      myForm.append("images", image);
-    });
+    // myForm.set("name", name);
+    // myForm.set("price", price);
+    // myForm.set("description", description);
+    // myForm.set("category", category);
+    // myForm.set("Stock", Stock);
+    // myForm.set("images", images)
+    // images.forEach((image) => {
+    //   myForm.append("images", image);
+    // });
     dispatch(createProduct(myForm));
   };
 
@@ -156,21 +163,22 @@ const NewProduct = () => {
               />
             </div>
 
-            <div id="createProductFormFile">
+            <div>
+            <BsCurrencyRupee />
               <input
-                type="file"
+                type="text"
                 name="avatar"
-                accept="image/*"
-                onChange={createProductImagesChange}
-                multiple
+                placeholder="Images"
+                onChange={(e) => setImages(e.target.value)}
+                required
               />
             </div>
 
-            <div id="createProductFormImage">
+            {/* <div id="createProductFormImage">
               {imagesPreview.map((image, index) => (
                 <img key={index} src={image} alt="Product Preview" />
               ))}
-            </div>
+            </div> */}
 
             <Button
               id="createProductBtn"
