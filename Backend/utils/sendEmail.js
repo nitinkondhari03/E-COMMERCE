@@ -1,12 +1,11 @@
 const nodeMailer=require("nodemailer")
-const dotenv=require("dotenv")
-dotenv.config({path:"config/config.env"})
+
 const sendEmail=async(options)=>{
 
       const transporter= nodeMailer.createTransport({
             host:process.env.SMPT_HOST,
             port:process.env.SMPT_PORT,
-            Security:"SSL",
+            service:process.env.SMPT_SERVICE,
             auth:{
                   user:process.env.SMPT_MAIL,
                   pass:process.env.SMPT_PASSWORD,

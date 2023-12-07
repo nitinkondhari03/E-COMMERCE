@@ -11,4 +11,4 @@ const connetDatabase = () => {
     });
 };
 
-module.exports = connetDatabase;
+module.exports = {connetDatabase};

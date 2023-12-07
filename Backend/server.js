@@ -1,7 +1,7 @@
 const {app}=require("./app")
 const dotenv=require("dotenv")
 const cloudinary=require("cloudinary")
-const connetDatabase=require("./config/database")
+const {connetDatabase}=require("./config/database")
 
 //Handling Uncaugth Exception
 
@@ -23,7 +23,7 @@ cloudinary.config({
 
 const server=app.listen(process.env.PORT,async()=>{
       try {
-            await connetDatabase
+            await connetDatabase()
             console.log(`server is working http://localhost:${process.env.PORT}`)
       } catch (error) {
             console.log(error)
