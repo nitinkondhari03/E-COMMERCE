@@ -46,7 +46,7 @@ export const login = (email, password) => async (dispatch) => {
     const config = { headers: { "Content-Type": "application/json" } };
 
     const x = await axios.post(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/login`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/login`,
       { email, password },
       config
     );
@@ -67,7 +67,7 @@ export const register = (userData) => async (dispatch) => {
     const config = { headers: { "Content-Type": "multipart/form-data" } };
 
     const x = await axios.post(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/register`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/register`,
       userData,
       config
     );
@@ -89,7 +89,7 @@ export const loadUser = () => async (dispatch) => {
     dispatch({ type: LOAD_USER_REQUEST });
 
     const { data } = await axios.get(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/me`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/me`,
       {
         headers: {
           Authorization: `${x}`,
@@ -106,7 +106,7 @@ export const loadUser = () => async (dispatch) => {
 // Logout User
 export const logout = () => async (dispatch) => {
   try {
-    await axios.get(`https://pink-helpful-lamb.cyclic.app/api/v1/logout`);
+    await axios.get(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/logout`);
     localStorage.removeItem("token");
     dispatch({ type: LOGOUT_SUCCESS });
   } catch (error) {
@@ -122,7 +122,7 @@ export const updateProfile = (userData) => async (dispatch) => {
     const config = { headers: { "Content-Type": "multipart/form-data" } };
 
     const { data } = await axios.put(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/me/update`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/me/update`,
       userData,
       {
         headers: {
@@ -148,7 +148,7 @@ export const updatePassword = (passwords) => async (dispatch) => {
     const config = { headers: { "Content-Type": "application/json" } };
 
     const { data } = await axios.put(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/password/update`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/password/update`,
       passwords,
       {
         headers: {
@@ -174,7 +174,7 @@ export const forgotPassword = (email) => async (dispatch) => {
   //   const config = { headers: { "Content-Type": "application/json" } };
 
   //   const { data } = await axios.post(
-  //     `https://pink-helpful-lamb.cyclic.app/api/v1/password/forgot`,
+  //     `https://cute-rose-gorilla-sock.cyclic.app/api/v1/password/forgot`,
   //     email,
   //     {
   //       headers: {
@@ -195,7 +195,7 @@ export const forgotPassword = (email) => async (dispatch) => {
 
     const config = { headers: { "Content-Type": "application/json" } };
 
-    const { data } = await axios.post(`https://pink-helpful-lamb.cyclic.app/api/v1/password/forgot`, email, config);
+    const { data } = await axios.post(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/password/forgot`, email, config);
 
     dispatch({ type: FORGOT_PASSWORD_SUCCESS, payload: data.message });
   } catch (error) {
@@ -214,7 +214,7 @@ export const resetPassword = (token, passwords) => async (dispatch) => {
     const config = { headers: { "Content-Type": "application/json" } };
 
     const { data } = await axios.put(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/password/reset/${token}`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/password/reset/${token}`,
       passwords,
       {
         headers: {
@@ -237,7 +237,7 @@ export const getAllUsers = () => async (dispatch) => {
   try {
     dispatch({ type: ALL_USERS_REQUEST });
     const { data } = await axios.get(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/users`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/users`,
       {
         headers: {
           Authorization: `${x}`,
@@ -256,7 +256,7 @@ export const getUserDetails = (id) => async (dispatch) => {
   try {
     dispatch({ type: USER_DETAILS_REQUEST });
     const { data } = await axios.get(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/user/${id}`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/user/${id}`,
       {
         headers: {
           Authorization: `${x}`,
@@ -277,7 +277,7 @@ export const updateUser = (id, userData) => async (dispatch) => {
     const config = { headers: { "Content-Type": "application/json" } };
 
     const { data } = await axios.put(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/user/${id}`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/user/${id}`,
       userData,
       {
         headers: {
@@ -301,7 +301,7 @@ export const deleteUser = (id) => async (dispatch) => {
     dispatch({ type: DELETE_USER_REQUEST });
 
     const { data } = await axios.delete(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/user/${id}`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/user/${id}`,
       {
         headers: {
           Authorization: `${x}`,

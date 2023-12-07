@@ -32,7 +32,7 @@ import {
             "Content-Type": "application/json",
           },
         };
-        const { data } = await axios.post("https://pink-helpful-lamb.cyclic.app/api/v1/order/new", order,{
+        const { data } = await axios.post("https://cute-rose-gorilla-sock.cyclic.app/api/v1/order/new", order,{
           headers:{
             "Authorization":`${x}`
           }
@@ -52,7 +52,7 @@ import {
       try {
         dispatch({ type: MY_ORDERS_REQUEST });
     
-        const { data } = await axios.get("https://pink-helpful-lamb.cyclic.app/api/v1/orders/me",{
+        const { data } = await axios.get("https://cute-rose-gorilla-sock.cyclic.app/api/v1/orders/me",{
           headers:{
             "Authorization":`${x}`
           }
@@ -72,7 +72,7 @@ import {
       try {
         dispatch({ type: ALL_ORDERS_REQUEST });
     
-        const { data } = await axios.get("https://pink-helpful-lamb.cyclic.app/api/v1/admin/orders",{
+        const { data } = await axios.get("https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/orders",{
           headers:{
             "Authorization":`${x}`,
           }
@@ -98,7 +98,7 @@ import {
           },
         };
         const { data } = await axios.put(
-          `https://pink-helpful-lamb.cyclic.app/api/v1/admin/order/${id}`,
+          `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/order/${id}`,
           order,{
             headers:{
               "Authorization":`${x}`,
@@ -120,7 +120,7 @@ import {
       try {
         dispatch({ type: DELETE_ORDER_REQUEST });
     
-        const { data } = await axios.delete(`https://pink-helpful-lamb.cyclic.app/api/v1/admin/order/${id}`,{
+        const { data } = await axios.delete(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/order/${id}`,{
           headers:{
             "Authorization":`${x}`,
           }
@@ -140,7 +140,7 @@ import {
       try {
         dispatch({ type: ORDER_DETAILS_REQUEST });
     
-        const { data } = await axios.get(`https://pink-helpful-lamb.cyclic.app/api/v1/order/${id}`,{
+        const { data } = await axios.get(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/order/${id}`,{
           headers:{
             "Authorization":`${x}`
           }

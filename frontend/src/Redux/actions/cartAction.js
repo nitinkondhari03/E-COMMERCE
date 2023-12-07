@@ -8,7 +8,7 @@ let x = localStorage.getItem("token");
 // Add to Cart
 export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
   const { data } = await axios.get(
-    `https://pink-helpful-lamb.cyclic.app/api/v1/product/${id}`
+    `https://cute-rose-gorilla-sock.cyclic.app/api/v1/product/${id}`
   );
 
   dispatch({

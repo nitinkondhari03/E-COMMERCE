@@ -10,7 +10,7 @@ const PaymentElement=()=>{
       
 let x = localStorage.getItem("token");
   async function getStripeApiKey() {
-      const {data} = await axios.get("https://pink-helpful-lamb.cyclic.app/api/v1/stripeapikey",{
+      const {data} = await axios.get("https://cute-rose-gorilla-sock.cyclic.app/api/v1/stripeapikey",{
             headers:{
               "Authorization":`${x}`
             }

@@ -52,7 +52,7 @@ const history=useNavigate()
 
     try {
       const { data } = await axios.post(
-        "https://pink-helpful-lamb.cyclic.app/api/v1/payment/process",
+        "https://cute-rose-gorilla-sock.cyclic.app/api/v1/payment/process",
         {amount: Math.round(orderInfo.totalPrice * 100)}
         ,{
         headers: {

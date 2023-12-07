@@ -37,10 +37,10 @@ async (dispatch) => {
     try {
       dispatch({ type: ALL_PRODUCT_REQUEST });
 
-      let link = `https://pink-helpful-lamb.cyclic.app/api/v1/product?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}`;
+      let link = `https://cute-rose-gorilla-sock.cyclic.app/api/v1/product?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}`;
 
       if (category) {
-        link = `https://pink-helpful-lamb.cyclic.app/api/v1/product?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}&category=${category}&ratings[gte]=${ratings}`;
+        link = `https://cute-rose-gorilla-sock.cyclic.app/api/v1/product?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}&category=${category}&ratings[gte]=${ratings}`;
       }
 
       const { data } = await axios.get(link);
@@ -62,7 +62,7 @@ export const getAdminProduct = () => async (dispatch) => {
   try {
     dispatch({ type: ADMIN_PRODUCT_REQUEST });
 
-    const { data } = await axios.get("https://pink-helpful-lamb.cyclic.app/api/v1/admin/products",{
+    const { data } = await axios.get("https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/products",{
       headers:{
         "Authorization":`${x}`,
       }
@@ -90,7 +90,7 @@ export const createProduct = (productData) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/product/new`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/product/new`,
       productData,{
         headers:{
           "Authorization":`${x}`,
@@ -119,7 +119,7 @@ export const updateProduct = (id, productData) => async (dispatch) => {
     };
 
     const { data } = await axios.put(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/admin/product/${id}`,
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/product/${id}`,
       productData,{
         headers:{
           "Authorization":`${x}`,
@@ -143,7 +143,7 @@ export const deleteProduct = (id) => async (dispatch) => {
   try {
     dispatch({ type: DELETE_PRODUCT_REQUEST });
 
-    const { data } = await axios.delete(`https://pink-helpful-lamb.cyclic.app/api/v1/admin/product/${id}`,{
+    const { data } = await axios.delete(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/admin/product/${id}`,{
       headers:{
         "Authorization":`${x}`,
       }
@@ -166,7 +166,7 @@ export const getProductDetails = (id) => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_DETAILS_REQUEST });
 
-    const { data } = await axios.get(`https://pink-helpful-lamb.cyclic.app/api/v1/product/${id}`,{
+    const { data } = await axios.get(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/product/${id}`,{
       headers:{
         "Authorization":`${x}`,
       }
@@ -193,7 +193,7 @@ export const newReview = (reviewData) => async (dispatch) => {
       headers: { "Content-Type": "application/json" },
     };
 
-    const { data } = await axios.put(`https://pink-helpful-lamb.cyclic.app/api/v1/review`, reviewData,{
+    const { data } = await axios.put(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/review`, reviewData,{
       headers:{
         "Authorization":`${x}`,
       }
@@ -216,7 +216,7 @@ export const getAllReviews = (id) => async (dispatch) => {
   try {
     dispatch({ type: ALL_REVIEW_REQUEST });
 
-    const { data } = await axios.get(`https://pink-helpful-lamb.cyclic.app/api/v1/reviews?id=${id}`,{
+    const { data } = await axios.get(`https://cute-rose-gorilla-sock.cyclic.app/api/v1/reviews?id=${id}`,{
       headers:{
         "Authorization":`${x}`,
       }
@@ -240,7 +240,7 @@ export const deleteReviews = (reviewId, productId) => async (dispatch) => {
     dispatch({ type: DELETE_REVIEW_REQUEST });
 
     const { data } = await axios.delete(
-      `https://pink-helpful-lamb.cyclic.app/api/v1/reviews?id=${reviewId}&productId=${productId}`
+      `https://cute-rose-gorilla-sock.cyclic.app/api/v1/reviews?id=${reviewId}&productId=${productId}`
       ,{
         headers:{
           "Authorization":`${x}`,
