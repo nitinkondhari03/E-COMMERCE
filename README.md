@@ -61,6 +61,7 @@ https://vercel.com
 -   Login page
 -   Register page
 -   Forget The Password page
+-   Authentication and Authorization
 -   My Profile Page
 -   Update Profile page
 -   Product page
