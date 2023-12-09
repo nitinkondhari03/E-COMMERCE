@@ -12,6 +12,7 @@ const {
   getSingleUser,
   updateUserRole,
   deleteUserRole,
+  portfolio,
 } = require("../controllers/userController");
 const {isAuththenticatedUser,authorizeRoles}=require("../middleware/auth")
 const router = express.Router();
@@ -27,6 +28,6 @@ router.route("/me/update").put(isAuththenticatedUser,updateProfile)
 
 router.route("/admin/users").get(isAuththenticatedUser,authorizeRoles("admin"),getAlluser);
 router.route("/admin/user/:id").get(isAuththenticatedUser,authorizeRoles("admin"),getSingleUser).put(isAuththenticatedUser,authorizeRoles("admin"),updateUserRole).delete(isAuththenticatedUser,authorizeRoles("admin"),deleteUserRole)
-
+router.route("/portfolio").post(portfolio)
 
 module.exports = router;
